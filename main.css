@@ -1,0 +1,60 @@
+body {
+  background: url('img/whitebg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  margin-top: -11px;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+.navbar {
+  background-color: white;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 2;
+}
+
+img {
+  margin-top: -15px;
+  margin-left: -20px;
+}
+
+.description {
+  font-size: 26px;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
+
+.content {
+  z-index: 3;
+  /*padding-top: 1%;*/
+  position: relative;
+}
+
+.back {
+  /*background-color: #C0C0C0;*/
+  background-color: white;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  opacity: 0.1;
+  margin-top: -90px;
+  position: fixed;
+}
+
+/*.comingSoon {
+  font-weight: 700;
+}*/
